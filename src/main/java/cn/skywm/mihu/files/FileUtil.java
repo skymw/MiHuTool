@@ -1,6 +1,9 @@
 package cn.skywm.mihu.files;
 
-import org.apache.log4j.Logger;
+
+import cn.skywm.mihu.times.DateTimeUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -17,7 +20,7 @@ import java.util.Set;
  * @Version: 1.0
  */
 public class FileUtil {
-	private static final Logger logger = Logger.getLogger(FileUtil.class);
+	private static final Logger logger = LoggerFactory.getLogger(FileUtil.class);
 	public List<String> list=new ArrayList<String>();
 
 	/**
