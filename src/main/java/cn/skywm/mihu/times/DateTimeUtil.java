@@ -21,9 +21,7 @@ import java.util.GregorianCalendar;
  */
 public class DateTimeUtil {
 
-	///
-	//定义时间日期显示格式
-	///
+	//定义时间格式化类型
 	public final static String DATE_FORMAT = "yyyy-MM-dd";
 	public final static String DATE_FORMAT_CN = "yyyy年MM月dd日";
 	public final static String TIME_FORMAT = "yyyy-MM-dd HH:mm:ss";
